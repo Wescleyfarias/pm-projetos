@@ -1,0 +1,40 @@
+body {
+    background: #ecf0f1;
+    width: 500px;
+    height: 100px;
+    margin:auto;
+    padding: 0;
+    
+}
+h1 {
+    font-family: arial black;
+    font-style:normal;
+    font-weight:bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: arial;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-family: arial;
+    font-weight: bold;
+    margin: 12px;
+    width: 500px;
+    height: 30px;
+    background: #9b59b6;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0px 0px 10px;
+    text-align: justify;
+    
+}

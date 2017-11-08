@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #e6e6e6;
+    
+}
+div {
+    float: left;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 5px 5px 0 0;
+    cursor:pointer;
+    width: 300px;
+    height: 168px;
+}
+.legenda{
+    background-color: #ffffff;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 12px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #ffffff;
+    width: 300px;
+}
+.Russia{
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333333;
+    margin: 12px;
+    margin-top: 2px;
+}
+.tempo{
+    font-family: "Open Sans";
+    font-size: 11px;
+    color: #999999;
+    margin: 2px;
+}
+.texto{
+    width: 275px;
+    height: 54px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 18px;
+    text-align: justify;
+    margin: 10px;
+    color: #b5000d;
+    cursor:pointer;
+}
+.texto2{
+    width: 260px;
+    height: 54px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: normal;
+    text-align:left;
+    margin: 10px;
+    color: #333333;
+}
