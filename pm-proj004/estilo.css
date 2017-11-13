@@ -1,10 +1,10 @@
 body{
     background: #4a4a4a;
-    
 }
 ul{
     list-style: none;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
 li
 {
@@ -19,14 +19,17 @@ li
     font-size: 20px;
     background: #27ae60;
     cursor: pointer;
-    text-align:center;
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Oswald' sans-serif;
+    text-align: justify;
+}
+.texto{
+    text-align: center;
 }
 .seta{
     float: right;
-    margin: 50px 31px 0 0;
+    margin: 0 31px 0 0;
 }
 .positivo{
     float: left;
@@ -35,8 +38,11 @@ li
 a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Oswald' sans-serif;
 }
-li, img, a:hover{
+li:hover{
     background-color: #52be7f;
+}
+p{
+    padding: 50px 0 0 0;
+    margin: 0;
 }

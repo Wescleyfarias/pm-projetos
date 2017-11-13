@@ -1,0 +1,64 @@
+body{
+    background: #9b9b9b;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+h2{
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+.linha1{
+    opacity: 0.9;
+    font-size: 14px;
+}
+.linhas{
+    opacity: 0.8;
+    font-size: 13px;
+}
+.cabeça{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 0 20px 0px;
+}
+th{
+    text-align: left;
+}
+div{
+    width: 98%;
+    height: 100%;
+    margin: 10px 10px 10px 10px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+input[type="checkbox"]{
+    margin: 12px 0 0 50px;
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+p{
+    text-align: right;
+    opacity: 0.5;
+    font-size: 14px;
+    padding: 0 10px;
+}
+select{
+    border-style: none;
+    padding: 0 5px 0 20px;
+}
+img{
+    padding: 0 20px 0 20px;
+}
+.ok{
+    width: 10%;
+    padding: 0 0 10px 0;
+}
+input:hover{
+    color: #000;
+    cursor: pointer;
+}
