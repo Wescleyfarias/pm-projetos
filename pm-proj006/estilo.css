@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+caption{
+    width: 100%;
+    padding: 10px
+}
+table{
+    width: 100%
+}
+.cabeça{
+    text-align: center;
+    width:212px;
+    height: 40px;
+}
+.continer{
+    width: 100%;
+}
+img {
+    text-align: center;        
+}
+div{
+    width: 100%;
+}
+.corpo{
+    
+}
