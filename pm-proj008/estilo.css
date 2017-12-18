@@ -1,0 +1,190 @@
+body{
+    display: flex;
+    background-color: #f5f5f5;
+    font-family: arial, sans-serif;
+}
+aside{
+    height: 100%;
+    width: 200px;
+    background-color: #242536;
+}
+
+aside ul{
+    margin: 0;
+    padding: 0;
+}
+aside h1{
+    background-image: url(img/nucliot-logo.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 60px;
+    background-position: center;
+    background-color: #151524;
+}
+
+aside h1 span{
+    visibility: hidden;
+}
+
+aside li{
+    list-style: none;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+aside li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+aside li i{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+aside li small{
+    color: rgba(255, 255, 255, 0.6);
+    float: right;
+    margin-right: 15px;
+}
+
+aside li:hover{
+    background-color: #151524;
+    border-left: 2px solid #ffb946;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+section{
+    height: 100px;
+}
+section#principal {
+    width: 100%;
+}
+section#principal header{
+    height: 60px;
+    background-color: #242536;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 20px;
+}
+section#principal .modulo .abas{
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+section#principal .modulo .abas ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+}
+
+section#principal .modulo .abas li{
+    display: inline-block;
+    line-height: 60px;
+}
+
+section#principal .modulo .abas li a{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+section#principal .modulo .abas li a:hover{
+    color: #ffc25b;
+    box-shadow: 0px -3px 0px #ffc25b inset;
+}
+
+section#principal .modulo .container{
+    height: 300px;
+    padding: 20px;
+}
+section#principal .modulo .container .canvas {
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+form ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    
+}
+form li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+form h2{
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+form input, form select{
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+form small{
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+
+form select{
+    color: #c5c5c5;
+}
+
+::-webkit-input-placeholder{
+    color: #c5c5c5;
+}
+form li.ok{
+    background-image: url(img/ok.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    width: 430px;
+}
+
+form button {
+    width: 400px;
+    height: 40px;
+    background-color: #3aca60;
+    border: 1px solid #3aca60;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.marcador li{
+    font-size: 14px;
+    display: flex;
+    width: 400px;
+}    
+.marcador input{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
