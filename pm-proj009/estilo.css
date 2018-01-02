@@ -1,0 +1,279 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'muliregular';
+}
+
+.container{
+    width: 688px;
+    height: 558px;
+    background-color: #fff;
+}
+header{
+    height: 40px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'muliextrabold';
+    color: #5e5f5f;
+}
+header a{
+    background-image: url(img/nav_fechar.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}
+header span{
+    color: #4a4a4a;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+header a span{
+    visibility: hidden;
+}
+header span strong{
+    font-family: 'muliextrabold';
+}
+
+main{
+    display: flex;
+}
+
+.pagamento{
+    height: 100px;
+    width: 55%;
+}
+
+.pagamento .wallet h2{
+    margin: 20px 0 0 30px;
+    padding: 0;
+    color: #777879;
+    font-size: 18px;
+    font-family: 'muliregular';
+}
+.pagamento .wallet ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.pagamento .wallet li{
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0 0 10px;
+}
+.pagamento .wallet li:hover{
+    background-color: #f5f9fd;
+    box-shadow: isent 0 0 3px #d1e2f6;
+    border-radius: 3px;
+}
+.pagamento .wallet small{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+.pagamento .wallet a{
+    text-decoration: none;
+    color: #c6c6c6c6;
+    font-family: 'muliregular';
+    font-size: 16px;
+    font-weight: 400;
+}
+.pagamento .cartao fieldset{
+    border: none;
+    text-align: center;
+}
+.pagamento .cartao legend{
+    font-size: 16px;
+    color: #777879;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+.pagamento .cartao input{
+    width: 270px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.pagamento .cartao .data{
+    width: 149px;
+    margin-right: 10px;
+}
+.pagamento .cartao .cvc{
+    width: 86px;
+}
+.pagamento .cartao label input{
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 30px;
+}
+.pagamento .cartao label{
+    display: flex;
+    margin: 20px 0 20px 0;
+    font-size: 14px;
+    color: #777879;
+    font-family: 'Muliextrabold';    
+}
+
+.pagamento .cartao button{
+    width: 295px;
+    padding: 15px;
+    background-color: #8bd638;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: 'Muliextrabold';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-top: 5px
+}
+
+.pagamento ::-webkit-input-placeholder{
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+.produtos{
+    height: 100%;
+    width: 45%;
+    background-color: #ebebeb;
+    border-left: 1px solid #deddde;
+}
+.produtos ul{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 47px
+}
+.produtos ul li{
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    height: 70px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.produtos ul li:last-child{
+    border-bottom: none;
+}
+.produtos img{
+    width: 47px;
+    height: 47px;
+    background-color: #f3f3f3;
+    border: 1px solid #e3e3e3;
+    border-radius: 1px;
+}
+.produtos h3{
+    font-size: 12px;
+    margin: 0 0 0 5px;
+    color: #777879;
+    font-family: 'Muliextrabold';
+    line-height: 13px;
+    width: 147px;
+}
+.produtos small{
+    font-size: 10px;
+    display: block;
+    margin: 5px 5px 0 ;
+    color: #a7a7a7;
+    font-family: 'Muli' sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.produtos .detalhes span{
+    color: #9c9c9c;
+    font-size: 10px;
+    margin: 0 0 0 5px;
+    font-family: 'Muliextrabold'
+}
+.preco{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+    color: #777879;
+    line-height: 11px;
+    font-family: 'Muliextrabold';
+    width: 100%;
+    height: 100%;
+}
+.produtos table{
+    margin: 0 15px 0 15px;
+    padding: 0;
+    border-top: 1px solid #deddde;
+    border-bottom: 1px solid #deddde;
+    width: 279px;
+    align-items: center;
+}
+.produtos table tr{
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+}
+.produtos table tr td{
+    display: flex;
+    margin: 0;
+}
+.produtos table tr td h2{
+    margin: 0 0 5px 0;
+    font-size: 12px;
+    width: 50%;
+    color: #777879;
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+}
+.produtos table tr td span{
+    font-size: 12px;
+    width: 50%;
+    text-align: right;
+    font-family: 'Muli' sans-serif;
+    color: #777879;
+}
+
+.produtos header{
+    margin: 0;
+    padding: 0;
+}
+.produtos header h2{
+    padding-left: 20px;
+    font-size: 12px;
+    color: #777879;
+    font-family: 'Muliextrabold';
+    width: 50%;
+    margin: 0;
+}
+.produtos header footer{
+    font-size: 12px;
+    font-family: 'Muliextrabold';
+    font-weight: 700;
+    line-height: 13px;
+    color: #777879;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
