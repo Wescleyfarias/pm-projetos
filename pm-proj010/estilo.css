@@ -1,0 +1,76 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+}
+.perfil{
+    width: 300px;
+    height: 100%;
+    background-color: #3a3c40;
+}
+.perfil img{
+    width: 140px;
+    height: 140px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.perfil h3{
+    margin: 0;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    color: #f5a623;
+    font-size: 24px;
+}
+.perfil h4{
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+.perfil a{
+    text-decoration: none;
+}
+.perfil button{
+    width: 140px;
+    height: 47px;
+    background-color: #f6a623;
+    box-shadow: 0 4px 0 rgba(245, 166, 35, 0.6);
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.perfil .redes ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    padding-bottom: 50px;
+}
+.perfil .redes ul li{
+    margin: 5px;
+    width: 26px;
+    height: 30px;
+}
+.perfil .redes ul li img{
+    width: 26px;
+    height: 30px;
+    padding-top: 10px;
+}
+´progress[value]::-webkit-progress-bar{
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.curriculo{
+    width: 658px;
+    background-color: #ffffff;
+}

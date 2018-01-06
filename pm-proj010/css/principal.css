@@ -1,0 +1,40 @@
+article{
+    background-color: #fff;
+    border-right: 1px solid #e1e1e1;
+}
+article .content{
+    font-size: 0.9375em;
+    color: #666666;
+    padding: 30px;
+    text-align: justify;
+}
+article .content h3{
+    color: #d0021b;
+    font-family: 'Lato', sans-serif;
+    font-size: 1,125em;
+    font-weight: 900;
+    margin-top: 20px;
+    padding-bottom: 5px !Important;
+    border-bottom: 1px solid #d0021b;
+}
+article .content h3 i{
+    padding-right: 5px;
+}
+
+article .instituicao h4{
+    font-size: 1.0625em;
+    color: #3a3c40;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+article .instituicao h5{
+    font-size: 0.9375em;
+    color: #3a3c40;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+article .instituicao small{
+    font-size: 0.9375em;
+    color: #3a3c40;
+    font-weight: 300;
+}
